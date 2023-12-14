@@ -46,16 +46,16 @@
 
 ########################################
 
-def last_digit_sort(*args,**kwargs):
+def last_digit_sort(*args,**kargs):
 
-    digits=[n%10 for n in args]
-    value=kwargs.get("reversed")
+    digits=[ n%10 for n in args]
+    value=kargs.get("reversed")
     if value==True:
         digits.sort(reverse=True)
     else:
         digits.sort()
     return digits
 
-print(last_digit_sort(17,12,14,3,1,reversed=False))
+print(last_digit_sort(17,12,14,3,1,reversed=True))
 
                     
