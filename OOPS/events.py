@@ -36,9 +36,28 @@ print(event_details)
 
 
 # Remove event object with id=5
-
-event_detail = [e for e in events if e.get("id") == 5][0]
-if event_detail:
-    events.remove(event_detail)
+id=5
+event_detail = [e for e in events if e.get("id") == id][0]
+events.remove(event_detail)
 print(events)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# lst=[10,20,40]
+# lst.remove(20)
+# print(lst)
 
