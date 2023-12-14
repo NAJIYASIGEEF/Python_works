@@ -1,0 +1,32 @@
+Class >> plan or blue print or design pattern
+      >> 2 components : Attributes, methods
+      >> car 
+      >> bottle
+      >> building
+      >> syntax
+        class class_name:
+        attribue 1
+        att 2
+        .
+        .
+        def method1 ( self )
+        .
+        .
+Object >> Real world entity or created using class
+    >> self -- current instance
+      
+
+constructor >> Initializing instance variables 
+            >> Automatically invokes when an object is created
+  java ,c++ -- same as class class_name
+  javascript -- constructor()
+  pthon -- __init__()
+
+
+  objects string representation --  __str__()
+  
+# crud
+# c=>create
+# r=>read 
+# u=>update
+# d =>delete 
